@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex-basis: 20%;
+    border: 1px dotted black;
+    padding: 0em 1em;
+    margin: .25em;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+title {
+    display: block;
+    margin: auto;
+}
