@@ -16,8 +16,94 @@
     margin: auto;
     width: 1000px;
 }
-
+head {
+    display:block;
+    margin: 40px 200px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
 title {
     display: block;
     margin: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.fullcontainer {
+    display: block;
+    max-width: 960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+    display: flex;
+    margin: 40px;
+}
+
+.container2 {
+    margin: 40px;
+}
+
+
+
+.titleHead {
+    display: block;
+    margin: 40px 200px;
+}
+
+.myFish {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px 0px 0px 0px;
+    padding: 20px;
+}
+
+.tipsAndLocations{
+
+}
+
+.tips {
+
+}
+
+.locations {
+
+}
+
+.upkeep {
+    border: 2px solid black;
+    border-radius: 0px 10px 0px 0px;
+    padding: 20px;
+    background-image: linear-gradient(#DDFFF7, #ffa69e)
+    
+}
+
+.fishImg {
+    width: 200px;
+    border-radius: 6% 6% 0 0;
+
+}
+
+.fishTank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fish {
+    border: 1px solid black;
+    border-radius: 6%;
+    margin: 10px;
+    padding: 4px;
+}
+
+.fishInfo {
+    padding: 4px;
+    text-align: center;
+
+}
+.areaTitle {
+    text-align: center;
 }
