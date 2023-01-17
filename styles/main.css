@@ -92,6 +92,26 @@ title {
     justify-content: center;
 }
 
+.fishTank1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fishTank2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fishTank3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
 .fish {
     border: 1px solid black;
     border-radius: 6%;

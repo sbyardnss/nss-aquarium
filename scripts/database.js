@@ -18,7 +18,7 @@ const database = {
             name: "Inigo Montoya",
             species: "Sunfish",
             food: "fish",
-            size: 6,
+            size: 5,
             image: "pictures/fish/sunfish.jpeg",
         },
         {
@@ -31,6 +31,22 @@ const database = {
     ]
 };
 // console.log(database);
+
+
+const tipsDatabase = [
+    {
+        tip: "Try to, like, not miss the fish"
+    },
+    {
+        tip: "NEVER breathe the water. You cannot"
+    },
+    {
+        tip: "Sharks bite hard"
+    }
+
+]
+
+
 
 
 export const getFish = () => {
